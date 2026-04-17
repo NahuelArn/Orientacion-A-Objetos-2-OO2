@@ -1,0 +1,9 @@
+package ar.edu.info.unlp.refactoring.ejercicio1;
+
+public abstract class Product {
+	
+	public abstract double quote();
+	public double r() {
+		return this.quote();
+	}
+}

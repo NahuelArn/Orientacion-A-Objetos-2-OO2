@@ -1,0 +1,11 @@
+Public fields = Campos Publicos
+Duplicate Code = codigo duplicado
+Alternative Classes with Different Interfaces = Clases alternativas con diferentes Interfaces
+Magic Numbers4 = numeros harcodeados
+Feature envy = envidia de caracteristicas = Una clase quiere tomar la responsabilidad de otra clase Class Juego.setNombre(Jugador j).. Juego quiere definir el nombre del jugador... raro...
+Imperative Loops -> cuando usan fors que se podrian hacer con Streams
+Message chains= metodos que piden a otros metodos hacer cosas, formando una cadena
+Move method: mover metodo a otra clase
+Extract Method: extraer comportamiento comun y ponerlo en metodos 
+Form Template Method: formeatear a un formato de plantilla | hola |
+Inline temp: cuando podes retornar un valor directamente... (no guardar cosas en variables auxiliares al pedo)

@@ -1,0 +1,9 @@
+package ar.edu.info.unlp.refactoring.ejercicio1;
+
+public abstract class Product {
+	private TimePeriod timePeriod;
+	
+	public Product(timePeriod) {
+		
+	}
+}

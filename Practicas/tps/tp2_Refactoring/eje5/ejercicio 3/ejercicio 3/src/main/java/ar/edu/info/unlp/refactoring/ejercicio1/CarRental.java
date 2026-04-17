@@ -1,0 +1,25 @@
+package ar.edu.info.unlp.refactoring.ejercicio1;
+
+import java.time.LocalDate;
+
+public class CarRental extends Product {
+    private double cost;
+    private TimePeriod timePeriod;
+    private Company company;
+
+    public CarRental(double cost, TimePeriod timePeriod, Company company) {
+        super(timePeriod);
+    	this.cost = cost;
+        this.company = company;
+    }
+
+
+
+    public double price() { //algo asi solo lo hice para esta clase/metodo pero para Hotel seria lo mismo
+        return this.company.reee();
+    }
+
+    public double cost() {
+        return this.cost;
+    }
+}
